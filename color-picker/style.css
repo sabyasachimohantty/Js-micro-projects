@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(250, 128, 114);
+}
+
+.nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#mode-1 {
+    color: blue;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+button:hover {
+    padding: 11px 22px;
+    background-color: rgb(120, 120, 109);
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.content {
+    font-size: xx-large;
+    font-weight: bolder;
+}
