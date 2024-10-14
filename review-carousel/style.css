@@ -1,0 +1,98 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    background-color: lavenderblush;
+}
+
+.topic {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.underline {
+    width: 100px;
+    height: 5px;
+    background-color: rgb(250, 173, 165);
+    border-radius: 10px;
+}
+
+.card {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 500px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.quote-icon {
+    width: 15px;
+    background-color: salmon;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px -5px rgb(250, 173, 165);
+}
+
+.name {
+    font-size: 1rem;
+}
+
+.title {
+    font-size: 0.9rem;
+    color: teal;
+}
+
+.content {
+    font-size: 0.85rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons img {
+    width: 10px;
+    border-radius: 50%;
+    padding: 5px 8px;
+}
+
+.icons img:hover {
+    background-color: salmon;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-color: salmon;
+    color: white;
+    background-color: rgb(250, 173, 165);
+}
