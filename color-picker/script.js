@@ -5,17 +5,16 @@ const button = document.getElementById("btn")
 const mode1 = document.getElementById("mode-1")
 const mode2 = document.getElementById("mode-2")
 let active = 1
-if (mode1.style.color === "blue") {
+
+window.onload = function () {
     active = 1
-} else {
-    active = 2
 }
 
 mode2.onclick = function () {
     document.getElementById("mode-1").style.color = 'black'
     document.getElementById("mode-2").style.color = "blue"
     document.getElementById("content").innerHTML = "Background Color: " + "#000000"
-    document.getElementById("container").style.backgroundColor = "#000000"
+    document.getElementById("container").style.backgroundColor = "#ffffff"
     active = 2
 }
 
