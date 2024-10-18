@@ -1,0 +1,61 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lavenderblush;
+}
+
+.heading {
+    font-size: 3rem;
+    font-family: cursive;
+    color: salmon;
+    margin-bottom: 2rem;
+}
+
+.questions {
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    font-size: 1.2rem;
+}
+
+.question {   
+    background-color: lightsalmon;
+    padding-inline: 1.5rem;
+    padding-block: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer {
+    background-color: white;
+    padding-inline: 1.5rem;
+    padding-block: 0.8rem;
+    display: none;
+}
+
+.expand-button {
+    width: 1.5rem;
+    display: none;
+}
+
+.contract-button {
+    width: 1.5rem;
+    display: none;
+}
+
+
+.show {
+    display: block;
+}
