@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation bar on scroll</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <img class="logo" src="./assets/google-brands-solid.svg" alt="">
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -22,7 +24,7 @@
         <div class="home-content">
             Welcome to tours and Guides
         </div>
-        <button class="btn">Explore Tours</button>
+        <a href="#tours"><button class="btn">Explore Tours</button></a>
     </section>
     <section id="about">
         <div class="about-content">About</div>
@@ -33,8 +35,22 @@
     <section id="tours">
         <div class="tours-content">Tours</div>
     </section>
-    <footer></footer>
+    <footer>
+        <div>
+            Copyright &copy; Backroads Travel Tours Company
+            <span class="date">2020</span>
+            . All Rights Reserved
+        </div>
+    </footer>
+
+    <!-- back to top button -->
+    <a href="#home">
+        <button class="back-to-top">
+            <img src="./assets/arrow-up-solid.svg" alt="">
+        </button>
+    </a>
 
     <script src="script.js"></script>
 </body>
+
 </html>
