@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 85%;
+}
+
+.tab-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.tabs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightseagreen;
+}
+
+.about-image {
+    width: 100%;
+}
+
+.btn {
+    flex-grow: 1;
+    text-align: center;
+    padding: 0.6rem;
+}
+
+.active {
+    background-color: lightskyblue;
+}
+
+.btn:hover {
+    background-color: lightskyblue;
+}
+
+.tab-content {
+    background-color: lavenderblush;
+    padding: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+@media (width >= 640px) {
+    section {
+        flex-direction: row;
+        max-width: 60rem;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .about-image {
+        width: 50%;
+    }
+}
